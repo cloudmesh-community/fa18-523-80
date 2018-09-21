@@ -13,7 +13,7 @@
 * Read technology summary assignment
 * Started research on OCCI for technology summary
 
-# Week Fri 09/07/18 - 09/13/18
+# Week Fri 09/14/18 - 09/20/18
 
 * Installed jabref
 * Reviewed scientific writing II
