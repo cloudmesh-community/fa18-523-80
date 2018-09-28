@@ -18,3 +18,9 @@
 * Installed jabref
 * Reviewed scientific writing II
 * Continued working on technology summary assignment
+
+# Week Fri 09/14/18 - 09/20/18
+
+* Continued through epub documents
+* Reading and watching lecture videos
+* Continued working on technology summary assignment
