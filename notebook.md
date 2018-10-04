@@ -24,3 +24,7 @@
 * Continued through epub documents
 * Reading and watching lecture videos
 * Continued working on technology summary assignment
+
+# Week Fri 09/28/18 - 10/04/18
+
+* Continued working on technology summary assignment
