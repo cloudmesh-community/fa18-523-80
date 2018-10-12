@@ -1,1 +1,15 @@
-Test
+# Utilizing Python Matplotlib Package for Data Visualization of In Cancer Clinical Trials
+
+#ABSTRACT
+
+#KEYWORDS
+
+#1. INTRODUCTION
+
+#2. PYTHON ARCHITECTURE
+
+#3. MATPLOTLIB FEATURES
+
+#4. MATPLOTLIB USE CASE FOR CLINICAL TRIALS VISUALIZATIONS
+
+#5. CONCLUSION
