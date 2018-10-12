@@ -28,3 +28,9 @@
 # Week Fri 09/28/18 - 10/04/18
 
 * Continued working on technology summary assignment
+
+# Week Fri 10/05/18 - 10/11/18
+
+* Continued working on technology summary assignment
+* Began work on 2 page summary paper
+* Began work on final project
