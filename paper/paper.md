@@ -1,4 +1,4 @@
-# Utilizing Python Matplotlib Package for Data Visualization of In Cancer Clinical Trials (Draft)
+# Utilizing Python Matplotlib Package for Data Visualization of In Cancer Clinical Trials
 
 Evan Beall
 Indiana University 
