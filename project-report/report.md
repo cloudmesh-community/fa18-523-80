@@ -12,13 +12,16 @@ Cancer is one of the most devestating conditions financially, emotionally, and p
 
 # 2. REQUIREMENTS
 
-# 3. PYTHON ARCHITECTURE
-To perform our analysis and visualization we will utilize a python 3 environment.  On top of this we will be utilizing numpy, pandas, and matplotlib to load our dataset, perform analysis, and create visual representations of the data.  
-# 4. BENCHMARK
+# 3. DATASET
+The dataset utilized for this analysis is a collection of fine needle aspirate breast cancer tumor.  This dataset includes 569 unique patients with 32 attributes per patient.  The attributes provided by this dataset includes de-identified patient identifiers, pathological diagnosis, and tumor characteristics.  The dataset is publicly available for analysis.
+# 4. PYTHON ARCHITECTURE
+To perform our analysis and visualization we will utilize a Python 3 environment.  On top of this we will be utilizing numpy, pandas, and matplotlib to load our dataset, perform analysis, and create visual representations of the data.  
+This dataset provides us with a large amount of data on different characteristics of each tumor.  This dataset also provides us with a diagnosis of the individual with breast cancer.  By using both the characteristics of the analyzed tumor along with the patients diagnosis we might be able to look for tumor characteristics that are be indicative of a cancer diagnosis. This would be able to inform future clinical trial research in how to identify patients with metastatic versus benign tumor diagnosis.  This could also allow for specialized treatment of specific type of breast cancer lesions.  Depending on tumor density, radius, etc. might indicate that cancer was more likely to metastisize more quickly.  
+# 5. BENCHMARK
 
-# 5. CONCLUSION
+# 6. CONCLUSION
 
-# 6. BIBLIOGRAPHY
+# 7. BIBLIOGRAPHY
 
-# 7. WORK BREAKDOWN
+# 8. WORK BREAKDOWN
 
