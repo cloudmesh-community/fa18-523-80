@@ -5,7 +5,7 @@ Indiana University
 Bloomington, IN 46408, USA
 ebbeall@iu.edu 
 
-# Abstract
+## Abstract
 
 As cancer research continues to evolve, the business units and researchers involved in this pursuit will need to be able to quickly and easily be able to display their findings to laymen both in internal meetings, but also to the public.  This critical piece is best handled through visualizations.  While most cancer research data has now been ported into Electronic Data Capture (EDC) systems.  These systems generally have no way of visualizing the data to all the business units that are involved in industry research.  Most of these systems require data to be exported to other systems in order to create visualization of the data.  The Matplotlib package that is available via Python programming is a powerful tool that can create basic visualization of large data sets.
 
