@@ -4,3 +4,18 @@ owner:
   lastname: "Beall"
   hid: "fa18-523-80"
   community: "i523"
+technologies:
+  - url: https://github.com/cloudmesh/technologies/blob/master/chapters/tech/occi.md
+  - url: https://github.com/cloudmesh/technologies/blob/master/chapters/tech/chef.md
+  - url: https://github.com/cloudmesh/technologies/blob/master/chapters/tech/tajo.md
+  - url: https://github.com/cloudmesh/technologies/blob/master/chapters/tech/flink-streaming.md
+paper:
+  - keyword: Matplotlib
+    title: "Utilizing Python Matplotlib Package for Data Visualization of In Cancer Clinical Trials"
+    url: https://github.com/cloudmesh-community/fa18-523-80/blob/master/paper/paper.md
+    group: N/A
+project:
+  - keyword: TBD
+    title: "Utilizing Machine Learning and Visualization Tools to Analyze Breast Tumor Measurements"
+    url: https://github.com/cloudmesh-community/fa18-523-80/blob/master/project-report/report.md
+    group: N/A
