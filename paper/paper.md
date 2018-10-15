@@ -1,8 +1,8 @@
 # Utilizing Python Matplotlib Package for Data Visualization of In Cancer Clinical Trials
 
-Evan Beall
-Indiana University 
-Bloomington, IN 46408, USA
+Evan Beall  
+Indiana University   
+Bloomington, IN 46408, USA  
 ebbeall@iu.edu 
 
 ## Abstract
