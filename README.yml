@@ -4,6 +4,7 @@ owner:
   lastname: "Beall"
   hid: "fa18-523-80"
   community: "i523"
+  semester: fa18
 technologies:
   - url: https://github.com/cloudmesh/technologies/blob/master/chapters/tech/occi.md
   - url: https://github.com/cloudmesh/technologies/blob/master/chapters/tech/chef.md
