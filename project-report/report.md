@@ -5,6 +5,12 @@ Indiana University
 Bloomington, IN 46408, USA 
 ebbeall@iu.edu 
 
+:o: format not followed
+
+| github: [:cloud:](https://github.com/cloudmesh-community/fa18-523-80/blob/master/project-report/report.md)
+
+
+
 ## Abstract
 
 Oncology research is an ever expanding field. In the past cancer treatment and research has been mainly focused on a casting a wide net by attempting to treat all individuals with a generalized treatment regiment. The focus of most of the large pharmaceutical companies that are involved in the creation and research of the main cancer fighting drugs has been on a one drug fits all methodology. In recent years this mindset has been beginning to change. Many of the large pharmaceutical companies are moving to a more tailored approach in combating cancer. This involves utilizing data analysis in tailoring treatments and analysis of data to predict outcomes of future trials. To further explore this idea the present study explores fine needle aspirate data from breast cancer research performed at University of Wisconsin. This study will utilize machine learning techniques to analyze and create visual representations of this data set.
