@@ -1,6 +1,7 @@
 # Utilizing Python Matplotlib Package for Data Visualization of In Cancer Clinical Trials :hand: fa18-523-80
 
-:o: format incorrect
+* :o: format incorrect
+* :o: incomplete 
 
 | github: [:cloud:](https://github.com/cloudmesh-community/fa18-523-80/edit/master/paper/paper.md)
 
