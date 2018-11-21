@@ -3,18 +3,11 @@
 * :o: format incorrect
 * :o: incomplete 
 
+| Evan Beall
+| ebbeall@iu.edu
+| Indiana University
+| hid: fa18-523-80
 | github: [:cloud:](https://github.com/cloudmesh-community/fa18-523-80/edit/master/paper/paper.md)
-
-
-Evan Beall  
-Indiana University   
-Bloomington, IN 46408, USA  
-ebbeall@iu.edu 
-
-## Abstract
-
-As cancer research continues to evolve, the business units and researchers involved in this pursuit will need to be able to quickly and easily be able to display their findings to laymen both in internal meetings, but also to the public.  This critical piece is best handled through visualizations.  While most cancer research data has now been ported into Electronic Data Capture (EDC) systems.  These systems generally have no way of visualizing the data to all the business units that are involved in industry research.  Most of these systems require data to be exported to other systems in order to create visualization of the data.  The Matplotlib package that is available via Python programming is a powerful tool that can create basic visualization of large data sets.
-
 
 ---
 
@@ -22,9 +15,13 @@ Keywords: Python, Visualization, Matplotlib, Cancer, Oncology
 
 ---
 
+## Abstract
+
+Cancer research is an ever evolving field.  This research requires a combination of business units with backgrounds ranging from scientific, sales, operationals, etc.  In order for this research to function at the highest level, the business units involved in this pursuit will need to be able to quickly communicate.  Due to the difference in background specializations between groups this communication is best handled through visualizations.  This provides a method that allows all business units involved to understand and communicate progress effectively.  In the last several years, cancer research data has been ported into Electronic Data Capture (EDC) systems.  These systems function only as databases to hold research data and have no native way of creating visualizations.  Due to the lack of native vizualization capability, data needs to be extracted and run through software that can quickly and effectively create visualizations of large data sets.  One such tool is the Matplotlib package that is available via Python programming.  This tool is a powerful program that enables visualizations to be created for large data sets.
+
 ## Introduction
 
-Cancer research is an ever evolving field that its utilizing data science technology to help to make research more easily communicated to those outside of the research and data perspective.  Visualization is a powerful tool for researchers, company executives, and the general public.  Matplotlib is a open source library within the Python environment.  This environment provides simple but extremely powerful 2D and 3D visualizations of large amounts of data.  The types of visualizations available within this library range from plots to scatterplots with very little code required.  This could become a very simple to teach, but powerful tool within the research community.  This would be especially helpful for scientists to be able to display their data to those that are not well versed in data.
+Cancer research is an ever evolving field that is beginning to utilize big data technology to help to analyze, standardize, and communicate results.  Visualization is a powerful tool for researchers, company executives, and the general public.  Matplotlib is a open source library within the Python environment.  This environment provides simple but extremely powerful 2D and 3D visualizations of large amounts of data.  The types of visualizations available within this library range from plots to scatterplots with very little code required.  This could become a very simple to teach, but powerful tool within the research community.  This would be especially helpful for scientists to be able to display their data to those that are not well versed in data.
 
 ## Python Architecture
 
