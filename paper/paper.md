@@ -35,9 +35,17 @@ Oncology clinical trial research and clinical trial research in general generate
 
 Most of the current electronic data capture systems are built in SQL relational databases and these databases do not provide great tracking or visualization tools for people of all backgrounds to be able to understand how the progress of research is going.  Most of the people involved in clinical trials research are not well versed in data manipulation, statistical analysis, or even have scientific mindset.  Accessibility of visualization tools are extremely important within large industry pharmaceutical companies for business units to be able to communicate with each other during the clinical trial process.  Visualization tools will allow for earlier analysis of clinical trial research to occurr by outside business units such as budgetary, medical, and legal.  The cancer research industry uses statistical teams to perform analysis, however, utilizing this staff is expensive and time consuming.  Each time statistical analysis is run on the entire trial requires fully committing statistical collegues to run analysis on every aspect of the trial.  By utilizing visualization tools it allows the research team to not require a full analysis to be performed each time.  Visualization tools would provide a quick glance at specific areas of interest allowing outside business units to quickly determine if the study/research is going as planned.  If these units have further questions regarding trial progress then a full analysis can be performed on the study.  This could save time and money of the overall study team.
 
-## Python Architecture
+## Matplotlib Architecture
+
+Matplotlibs architecture is split into three different layers.  The layers involved in producing a plot with the matplotlib library are the backend layer, artist layer, and scripting layer.  These layers are developed in a stack orientation in which the layers can talk to the layers below them, but the lower layers are not aware of those layers above them.
+
+The Backend layer involves FigureCanvas, Renderer, and Event classes.  The FigureCanvas class involves the area where the plot will be drawn.  The renderer class actually does the drawing of the plot.  Finally, the Event class handles keyboard or mouse events that might occur during the drawing process.
+
+The Artist Layer is the middle layer of the Matplotlib stack.  Within this layer is the Artist class.  This class allows the user to create and customize the plot.  Allowing for the system to understand the drawable area on the canvas and what type of titles and types of plots should be drawn.
+
+The Scripting Layer is the 
 
 ## Matplotlib Features
 
-Matplotlib is a massive library that allows for very easy creation of basic plots, while also providing the functionality to create very intricate and powerful visualizations depending on your skill with the library.  The most utilized package within the library is pyplot.
+Matplotlib is a massive library that allows for very easy creation of basic plots, while also providing the functionality to create very intricate and powerful visualizations depending on your skill with the library.  The most utilized package within the library is pyplot.  The usefullness aspect of the Matplotlib library is the versitility of visualizations that can be created.  Very basic analysis can be run and presented in laymens terms to those individuals that are not versed in clinical trials research (such as the public) or more advanced visualizations can be run for internal teams.  
 ## Conclusion
