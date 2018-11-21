@@ -23,6 +23,12 @@ Cancer research is an ever evolving field.  This research requires a combination
 
 Cancer research is an ever evolving field that is beginning to utilize big data technology to help to analyze, standardize, and communicate results.  Visualization is a powerful tool for researchers, company executives, and the general public.  Matplotlib is a open source library within the Python environment.  This environment provides simple but extremely powerful 2D and 3D visualizations of large amounts of data.  The types of visualizations available within this library range from plots to scatterplots with very little code required.  This could become a very simple to teach, but powerful tool within the research community.  This would be especially helpful for scientists to be able to display their data to those that are not well versed in data.
 
+## Archnitecture of Electronic Data Capture Systems
+
+Database structure of an electronic data capture system can vary widely accross industry pharmaceutical companies.  The data present in each of these systems will vary based on several factors.  These factors include:  phase of trial, therapy being investigated, type of lesion being research, etc.  While a trial is actively accruing and treating patients, the data within the EDC system is unstructured and impossible to create comparisions between other trials.  The goal of this research is to prove that these new drugs provide benefit to the general public and allow patients to glean those benefits.  In the United States the FDA is an organization in place to guard the general public from harmful and useless new treatments.  Every new treatment resulting from a clinical trial needs to submit it data to the FDA to gain approval.  To do this, the clinical trial research community has created a structure that standardizes data once it has been extracted from these electronic data capture systems.  This standardization structure is called Study Data Tabulation Model or SDTM.  SDTM provides a standard structure for both human clinical and nonclinical studies to be submitted to the FDA for approval.  In 2004, SDTM was chosen by the FDA as the starndard that would be utilized for all submissions for drug approval.
+
+Clinical trials can vary widely regarding what observations are collected throughout the life of the trial.  SDTM provides a set of defined variables that each of these observations will need to fit into.  This allows for comparisions to be drawn between research done all over the world. 
+
 ## Python Architecture
 
 ## Matplotlib Features
