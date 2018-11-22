@@ -1,7 +1,10 @@
-# Utilizing Python Matplotlib Package for Data Visualization of In Cancer Clinical Trials :hand: fa18-523-80
+# Utilizing Python Matplotlib Package for Data Visualization of In Cancer Clinical Trials :wave: :exclamation: fa18-523-80
 
-* :o: format incorrect
-* :o: incomplete 
+* :o: this paper does not provide a single citation.
+
+* :o: this paper does not include any example which we would have expected if you write about a technical topic such as matplotlib
+
+* :o: please merege abstract into introduction as this paper is to short to justify and abstract and the content seems duplicated in part
 
 | Evan Beall
 | ebbeall@iu.edu
