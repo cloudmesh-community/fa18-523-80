@@ -13,7 +13,11 @@ ebbeall@iu.edu
 
 ## Abstract
 
-Oncology research is an ever expanding field. In the past cancer treatment and research has been mainly focused on a casting a wide net by attempting to treat all individuals with a generalized treatment regiment. The focus of most of the large pharmaceutical companies that are involved in the creation and research of the main cancer fighting drugs has been on a one drug fits all methodology. In recent years this mindset has been beginning to change. Many of the large pharmaceutical companies are moving to a more tailored approach in combating cancer. This involves utilizing data analysis in tailoring treatments and analysis of data to predict outcomes of future trials. To further explore this idea the present study explores fine needle aspirate data from breast cancer research performed at University of Wisconsin. This study will utilize machine learning techniques to analyze and create visual representations of this data set.
+Cancer is a life altering disease that affects people all over the world.  In the United States alone it is estimated that throughtout a person's lifetime they have around a 39.66% chance of developing cancer and a 22.03% chance of dying from cancer at all invasive sites [@fa18-523-80-www-acs].  This disease can be classified as a human problem that no one can really escape from.  With the odds of developing this disease being over one in three, nearly every person knows someone that has been diagnosed or will no someone that is diagnosed at some point in their lives.  The public has high visibility on this disease and therefore lots of funding is placed on research to find a cure.
+
+Oncology research is an ever expanding field.  While there have been huge advancements in how we treat cancer, a stop to the disease has yet to be found.  The funding for research into a cure has been ever expanding.  It is very hard to get an accurate estimate of how much is spent on cancer research each year due to the amount of players in the industry.  This industry spands accross all nations and is being researched in all corners of the global.  Funding for cancer research comes from governments, foundations, pharmaceutical companies, private investors, and much more.  The fact that there are so many different parties involved across the world make is impossible to come up with an actual figure of the cost of this research.  In the United States, there is branch known as the Nationa Cancer Institute that helps to organize governmentally funded research into Cancer.  The current budget that has been allocated to the NCI for the 2019 fiscal year is $5.74 billion [@fa18-523-80-222-nci].  This budget represents an increase of 79 million dollars from 2018.
+
+In the past, cancer treatment and research has been mainly focused on a casting a wide net by attempting to treat all individuals with a generalized treatment regiment. The focus of most of the large pharmaceutical companies that are involved in the creation and research of the main cancer fighting drugs has been on a one drug fits all methodology. In recent years this mindset has been beginning to change. Many of the large pharmaceutical companies are moving to a more tailored approach in combating cancer. This involves utilizing data analysis in tailoring treatments and analysis of data to predict outcomes of future trials. To further explore this idea the present study explores fine needle aspirate data from breast cancer research performed at University of Wisconsin. This study will utilize machine learning techniques to analyze and create visual representations of this data set.
 
 ## Keywords
 
@@ -21,7 +25,12 @@ Breast Cancer, Python, big data, random forest
 
 ## Introduction
 
-Cancer is one of the most devestating conditions financially, emotionally, and physically to the person who is diagnosed and those around them. Breast cancer has high visability in the public eye and has some of the highest funding of any other types of cancer out there. Several large pharmaceutical companies and researchers get large grants to research new compounds and molecules to fight of these diseases. The oncology pharmaceutical is over a trillion dollar industry and each year their are thousands of clinical trials that are ongoing. 
+Cancer is one of the most devestating conditions financially, emotionally, and physically to the person who is diagnosed and those around them.  In the United States alone "he Agency for Healthcare research and Quality estimates that the direct medical costs (total of all health care costs) for cancer in the US in 2015 were $80.2 billion."  This figure includes all heath care costs that are associated with cancer.  There are several aspects that go into the total cost of health care for cancer patients, but one of the main oness is the cost of cancer treatment.
+Breast cancer has high visability in the public eye and has some of the highest funding of any other types of cancer out there. Several large pharmaceutical companies and researchers get large grants to research new compounds and molecules to fight of these diseases. The oncology pharmaceutical industry is over a trillion dollar industry and each year their are thousands of clinical trials that are ongoing.
+
+#Medical Costs of Cancer
+
+
 
 ## Requirements
 
