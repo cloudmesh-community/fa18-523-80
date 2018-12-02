@@ -122,13 +122,15 @@ The next part of this analysis included the creation and recalculation steps for
 
 The final portion of the study compares the results of the k-means clustering algorithm with that of the correct diagnosis that was provided in the initial dataset.  This portion of the study calculates the error rate for both the malignant and benign clusters.  This then goes on to calculate the total error rate accross both clusters.  The following table identifies the total amount of datapoints in each cluster and the error rates that were calculated.
 
+### Benchmarks
 
-
-### Deployment Benchmarks
-
-### Application Benchmarks
+In Dr. Wolbergs experiments they were utilizing a 30-dimensional vector for each data point in this data set.  The deployment used in this study only utilizes a 10-dimensional vector for each analysis.  In this experiment it takes around 9.65 seconds for the analysis to import the data, read the data, sort the data into initial clusters, iterate over the dataset to ensure cluster assignments are correct and then run a comparison between estimated cluster assignments and the real cluster assignment.  The only values that could be found from Dr. Wolberg's implementation of the Xcyt program were the length of time that the system would take to generate the characteristic map from the FNA imaging.  This was estimated to take around five to ten minutes.  This however is not a comparable time stamp as the system was estimating the characteristics and not running the diagnostic report.
 
 ## Limitations
+
+Limitations of this type of analysis are based around several factors.  The first and biggest one is the necessity to utilize the initial portion of the Xcyt program to generate a characteristic map of FNA samples.  This program is currently accessable for free via Nick Street at University of Iowa.  These packages have been outdated for many years, however, Broad Institute has maintained the packages for implementation in R.  To utilize these datasets in the future some manipulations to port the datasets generated via R to python for machine learning would be required.  Without this information, the machine learning algorithm implemented in this report will not run.  The assumption is that the initial portion of the Xcyt program output could be utilized going forward and combined with the easy to implement and customize python algorithm that is displayed in the report above.
+
+Another limitation of this type of algorithm is its ability to apply to a variation of cancer types.  FNA biopsies are not able to be produced on cancers that are not solid tissue samples.  This limits the effectiveness of this analysis as it only focuses on a type of biopsy only available to a selection of cancer tissues.  While this is a limitation, implementing this algorithm for other solid tumor cancers could be extremely helpful for diagnostic purposes.
 
 ## Conclusion
 
