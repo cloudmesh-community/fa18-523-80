@@ -51,11 +51,18 @@ The next part of the Xcyt program is the diagnosis portion.  Xcyt utilizes a lin
 
 The final part of the Xcyt program involves predicition of recurrence of the tumor.  This portion utilizes a kernel density estimation to compare the amount of benign vs malignant nuclei that are found within a sample.  By comparing these two figure's densities a bayesian computation is applies to compare the height of malginant densities divided by the sum of the densities of malignant and benign nuclei. 
 
-## Python Architecture
+## Technology Used
 
-To perform our analysis and visualization we will utilize a Python 3 environment. On top of this we will be utilizing numpy, pandas, and matplotlib to load our dataset, perform analysis, and create visual representations of the data. 
+While Dr. Wolberg and his team used the novel program of Xyct to perform their machine learning algorithm, this report will instead use the popular  To perform our analysis and visualization we will utilize a Python 3 environment. On top of this we will be utilizing numpy, pandas, and matplotlib to load our dataset, perform analysis, and create visual representations of the data. 
 This dataset provides us with a large amount of data on different characteristics of each tumor. This dataset also provides us with a diagnosis of the individual with breast cancer. By using both the characteristics of the analyzed tumor along with the patients diagnosis we might be able to look for tumor characteristics that are be indicative of a cancer diagnosis. This would be able to inform future clinical trial research in how to identify patients with metastatic versus benign tumor diagnosis. This could also allow for specialized treatment of specific type of breast cancer lesions. Depending on tumor density, radius, etc. might indicate that cancer was more likely to metastisize more quickly. 
 
+## Method
+
+While Dr. Wolberg and his team used the novel program of Xyct to perform their machine learning algorithm, this report will instead use the popular k-mean clustering algorithm within the python 3 environment.  To accomplish this task the pandas, numpy, and matplotlib packages will be used within python.  This dataset will be inported via pandas read() method using a .csv file.  This datset is relatively clean, however, there are 16 missing values.  These missing values have been assigned the value 'A7' for simplicity sake using the fillna() method.
+
+This analysis will be split into several different parts.  The first part will include a statistical output for each of the characteristics that have been derived by the dataset.  The frequency of each of these characterisitcs will then be plotted on basic bar graphs.  Further visualization is also derived to include characteristics that might be relevant to researchers.  Some of the derived statistical features will include mean, median, and standard deviation of each of the characteristics.  
+
+In the second part of the analysis, a basic k means algorithm will be created and implemented on the data set.  The data will then be sorted into one of the clusters.  This will be performed by   In this portion we will utilize a machine learning algorithm within the python environment known as k means clustering.  Each tumor condition will have a cluster created.  The code will then iterate through the There will be a cluster created for each diagnositic conditions of malignant vs benign tumor state.  Following this cluster the 
 ## Benchmark
 
 ## Conclusion
