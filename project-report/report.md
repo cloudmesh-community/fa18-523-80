@@ -47,7 +47,7 @@ The next part of the Xcyt program is the diagnosis portion.  Xcyt utilizes a lin
 
 The final part of the Xcyt program involves predicition of recurrence of the tumor.  This portion utilizes a kernel density estimation to compare the amount of benign vs malignant nuclei that are found within a sample.  By comparing these two figure's densities a bayesian computation is applies to compare the height of malginant densities divided by the sum of the densities of malignant and benign nuclei.  
 
-## Design
+## Implementation
 
 While Dr. Wolberg and his team used the novel program of Xyct to perform their machine learning algorithm on a more complex dataset, this report will instead use the popular k-mean clustering algorithm on a more high level dataset within the python 3 environment.  This will allow the implementation of the algorithm to be more reproduceable accross cancer diagnosis.  This could also allow other types of malignancies to be assessed using this method.  To accomplish this task the pandas, numpy, and matplotlib packages will be used within python.  This dataset will be inported via pandas read() method using a .csv file.  This datset is relatively clean, however, there are 16 missing values.  These missing values have been assigned the value 'A7' for simplicity sake using the fillna() method.
 
