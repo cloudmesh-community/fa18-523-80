@@ -26,17 +26,20 @@ Breast Cancer, Python, big data, random forest
 ## Introduction
 
 Cancer is one of the most devestating conditions financially, emotionally, and physically to the person who is diagnosed and those around them.  In the United States alone "he Agency for Healthcare research and Quality estimates that the direct medical costs (total of all health care costs) for cancer in the US in 2015 were $80.2 billion."  This figure includes all heath care costs that are associated with cancer.  There are several aspects that go into the total cost of health care for cancer patients, but one of the main oness is the cost of cancer treatment.
+
 Breast cancer has high visability in the public eye and has some of the highest funding of any other types of cancer out there. Several large pharmaceutical companies and researchers get large grants to research new compounds and molecules to fight of these diseases. The oncology pharmaceutical industry is over a trillion dollar industry and each year their are thousands of clinical trials that are ongoing.
+
 Oncology clinical trials function by exposing patient populations to new types of therapies and recording the results.  Clinical trials are setup to collect data throughout the time that the patient is on trial.  Some clinical trials are set up to run for decades at a time with hundreds of visits per patient.  These trials can includes tens of thousands of patients.  All of this together means that there is an enormous amount of data collected during each of these trials.  This data is stored in electronic data capture systems or EDCs.  The amount of data that needs to be worked on an analyzed for each of these trials means that there is a need for better ways to accomplish this task.
+
 This report will delve into the possible implementation of machine learning techniques to analyze one aspect of an Oncology clinical trial.  The goal will be to determine how accurate the algorithm can predict tumor diagnosis in breast cancer patients.  This report will also run further analysis of other tumor characteristics that are present in the dataset.  If an angorithm like this can be proven to be accurate enough, its implementation in clinical trial research and oncology treatment in general could be life saving.  It could also help to eliminate the human error that is seen when a physician alone is making a diagnosis.
 
-# Medical Costs of Cancer
+## Medical Costs of Cancer
 
 ## Requirements
 
 ## Dataset
 
-The dataset utilized for this analysis is a collection of fine needle aspirate breast cancer tumor. This dataset includes 569 unique patients with 32 attributes per patient. The attributes provided by this dataset includes de-identified patient identifiers, pathological diagnosis, and tumor characteristics. The dataset is publicly available for analysis.
+The dataset used in this analysis is the Breast Cancer Wisconsin Data set.  This dataset was created by Dr. William H. Wolberg.  Dr. Wolberg is a physician at the University of Wisconsin Hospital.  The dataset utilized for this analysis is a collection of fine needle aspirate breast cancer tumor.  Fine needle aspirate biopsies are biopsies that are taken by inserting a fine needle into the affected site.  The extracted tissue is then suspended into an aqueous solution and mounted on a slide.  Dr. Wolberg then used a graphic program called Xcyt to analyze the features of each of these biopsies.  This program  The datset was complied from the features seen on digitized images of these fine nedle aspirate biopsies.  This dataset includes 569 unique patients with 32 attributes per patient. The attributes provided by this dataset includes de-identified patient identifiers, pathological diagnosis, and tumor characteristics. The characterisitcs that are included in the data are of the cell nuclei that was present in the digitized images.  The dataset is publicly available for analysis.
 
 ## Python Architecture
 
