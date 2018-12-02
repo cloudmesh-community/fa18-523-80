@@ -49,10 +49,44 @@ The final part of the Xcyt program involves predicition of recurrence of the tum
 
 ## Implementation
 
-While Dr. Wolberg and his team used the novel program of Xyct to perform their machine learning algorithm on a more complex dataset, this report will instead use the popular k-mean clustering algorithm on a more high level dataset within the python 3 environment.  This will allow the implementation of the algorithm to be more reproduceable accross cancer diagnosis.  This could also allow other types of malignancies to be assessed using this method.  To accomplish this task the pandas, numpy, and matplotlib packages will be used within python.  This dataset will be inported via pandas read() method using a .csv file.  This datset is relatively clean, however, there are 16 missing values.  These missing values have been assigned the value 'A7' for simplicity sake using the fillna() method.
+### Requirements
 
-This analysis will be split into several different parts.  The first part will include a statistical output for each of the characteristics that have been derived by the dataset.  The frequency of each of these characterisitcs will then be plotted on basic bar graphs.  Further visualization is also derived to include characteristics that might be relevant to researchers.  Some of the derived statistical features will include mean, median, and standard deviation of each of the characteristics.  
+* Python 3.6 or higher
+  *This instance was performed in the Spyder IDE
+* Python Packages
+  * Python Standard Library
+  * Pandas
+  * Numpy
+  * Matplotlib
 
+While Dr. Wolberg and his team used the novel program of Xyct to perform their machine learning algorithm on a more complex dataset, this report will instead use the popular k-mean clustering algorithm on a more high level dataset within the Spyder Python 3.6 environment.   
+
+This will allow the implementation of the algorithm to be more reproduceable accross cancer diagnosis.  This could also allow other types of malignancies to be assessed using this method.  To accomplish this task the pandas, numpy, and matplotlib packages will be used within python.  This dataset will be inported via pandas read() method using a .csv file.  This datset is relatively clean, however, there are 16 missing values.  These missing values have been assigned the value 'A7' for simplicity sake using the fillna() method.  This will be accomplished using the following code:
+
+```
+import matplotlib.pyplot as plt
+import pandas as pd
+import numpy as np
+from pandas import DataFrame, read_csv
+from matplotlib.backends.backend_pdf import PdfPages
+```
+
+This analysis will be split into several different parts.  The first part will include a statistical output for each of the characteristics that have been derived by the dataset.  The frequency of each of these characterisitcs will then be plotted on basic bar graphs.  Further visualization is also derived to include characteristics that might be relevant to researchers.  Some of the derived statistical features will include mean, median, and standard deviation of each of the characteristics.  The following is a sample of code that shows how the visualizations were created:
+
+```
+    with PdfPages('finalproject.pdf') as pp:
+        for i in range (9):
+            fig1 = plt.figure()
+            sp1 = fig1.add_subplot(1, 1, 1)
+            sp1.set_title(columns[counter])
+            sp1.set_xlabel("Results")
+            sp1.set_ylabel("Number of Cases")
+            plt.xticks((1,2,3,4,5,6,7,8,9,10))
+            sp1.hist(df[(column_header[counter])], bins=10, color="blue", edgecolor = "black", alpha=0.5, label =         [1,2,3,4,5,6,7,8,9,10])
+            pp.savefig(fig1)
+            counter = counter + 1
+    pp.close()
+```
 In the second part of the analysis, a basic k means algorithm will be created and implemented on the data set.  The code will select two data points randomly using the np.random() method as the initial 'means' of the dataset these can also be seen as the initial cluster points.  These clusters will be utilized for each datapoint to calculate the euclidian distance.  This dataset will continue to interate in this way by selecting randomly selected datapoints as new cluster points each time.  Each time the final cluster assignment will be compared to the one before this.  The condition for the system to stop this iteration will occurr when the system identifies no change in cluster assignment or the system has iterated 1500 times.  This is put in place to keep the cluster method from running continuously.
 
 The final portion of this will compare how successful the k means algorithm we have implemented predicted the diagnosis condition.  In this step we take the cluster asssignment and compare it to the final column included in this dataset that contains the actual diagnosis of the patient.  By doing this we are able to calculate the error rate for each cluster and the overall error rate for both clusters.  This will give us a real world definition of how accurately the k mean algorithm is functioning.  
