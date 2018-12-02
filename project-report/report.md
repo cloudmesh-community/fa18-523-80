@@ -52,16 +52,15 @@ The final part of the Xcyt program involves predicition of recurrence of the tum
 ### Requirements
 
 * Python 3.6 or higher
-  *This instance was performed in the Spyder IDE
+  * This instance was performed in the Spyder IDE
 * Python Packages
   * Python Standard Library
   * Pandas
   * Numpy
   * Matplotlib
+* Dataset downloaded in .csv file format
 
-While Dr. Wolberg and his team used the novel program of Xyct to perform their machine learning algorithm on a more complex dataset, this report will instead use the popular k-mean clustering algorithm on a more high level dataset within the Spyder Python 3.6 environment.   
-
-This will allow the implementation of the algorithm to be more reproduceable accross cancer diagnosis.  This could also allow other types of malignancies to be assessed using this method.  To accomplish this task the pandas, numpy, and matplotlib packages will be used within python.  This dataset will be inported via pandas read() method using a .csv file.  This datset is relatively clean, however, there are 16 missing values.  These missing values have been assigned the value 'A7' for simplicity sake using the fillna() method.  This will be accomplished using the following code:
+While Dr. Wolberg and his team used the novel program of Xyct to perform their machine learning algorithm on a more complex dataset, this report will instead use the popular k-mean clustering algorithm on a more high level dataset within the Spyder Python 3.6 environment.  Once this environment has been donloaded and the datset has been download in .csv format.  The next step would be to import the pandas, numpy, and matplotlib packages will need to be imported into the code.  This will be accomplished using the following code:
 
 ```
 import matplotlib.pyplot as plt
@@ -70,6 +69,13 @@ import numpy as np
 from pandas import DataFrame, read_csv
 from matplotlib.backends.backend_pdf import PdfPages
 ```
+
+The dataset that is in the working directory can now read using the pandas.read_csv() and placed in a dataframe.  By utilizing this simplistic method it allows this program to be easily reproduceable and deployable by researchers that are not well versed in machine learning methodology.  This would also allow for researchers to shape the analysis to their own data and create customizations to the base program.  The 16 missing values in the dataset are also addressed by utilizing the fillna() method assigning the value A7 for all missing values via the following code:
+
+```
+df = pd.read_csv('breastcancer.csv', na_values = '?')
+    df = df.fillna(df['A7'].median())
+```      
 
 This analysis will be split into several different parts.  The first part will include a statistical output for each of the characteristics that have been derived by the dataset.  The frequency of each of these characterisitcs will then be plotted on basic bar graphs.  Further visualization is also derived to include characteristics that might be relevant to researchers.  Some of the derived statistical features will include mean, median, and standard deviation of each of the characteristics.  The following is a sample of code that shows how the visualizations were created:
 
