@@ -4,12 +4,10 @@
 | ebbeall@iu.edu
 | Indiana University
 | hid: fa18-523-80
-| github: [:cloud:](https://github.com/cloudmesh-community/fa18-523-80/blob/master/project-report/report.md)
-| github: [:cloud:](https://github.com/cloudmesh-community/fa18-523-80/blob/master/project-code)
+| github: [:cloud:](https://github.com/cloudmesh-community/fa18-523-80/blob/master/project-report)
+| code: [:cloud:](https://github.com/cloudmesh-community/fa18-523-80/blob/master/project-code)
 
 :o: format not followed
-
-| github: [:cloud:](https://github.com/cloudmesh-community/fa18-523-80/blob/master/project-report)
 
 ## Abstract
 
