@@ -5,7 +5,7 @@
 | Indiana University
 | hid: fa18-523-80
 | github: [:cloud:](https://github.com/cloudmesh-community/fa18-523-80/blob/master/project-report/report.md)
-| github: [:cloud;](https://github.com/cloudmesh-community/fa18-523-80/blob/master/project-code/report.md)
+| github: [:cloud;](https://github.com/cloudmesh-community/fa18-523-80/blob/master/project-code)
 
 :o: format not followed
 
