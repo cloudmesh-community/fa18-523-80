@@ -9,7 +9,6 @@ ebbeall@iu.edu
 
 | github: [:cloud:](https://github.com/cloudmesh-community/fa18-523-80/blob/master/project-report/report.md)
 
-
 ## Abstract
 
 Cancer is a life altering disease that affects people all over the world.  In the United States alone it is estimated that throughtout a person's lifetime they have around a 39.66% chance of developing cancer and a 22.03% chance of dying from cancer at all invasive sites [@fa18-523-80-www-acs].  Cancer research is a trillion dollar industry and gains more funding and researchers each year.  One of the most highly funded and visible forms of cancer is breast cancer.  Breast cancer research has taken the spotlight by being propped up by organizations cuch as the Suzan G Komen Foundation, National Breast Cancer foundation, etc.  The amount of private investors, charitable donations, and phamaceutical companies that have been funding research to treat this disease has been astonomical for decades.
