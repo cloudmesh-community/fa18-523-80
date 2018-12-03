@@ -143,10 +143,12 @@ The next part of this analysis included the creation and recalculation steps for
 
 ### Clustering Assessment
 
-The final portion of the study compares the results of the k-means clustering algorithm with that of the correct diagnosis that was provided in the initial dataset.  This portion of the study calculates the error rate for both the malignant and benign clusters.  This then goes on to calculate the total error rate accross both clusters.  The following table identifies the total amount of datapoints in each cluster and the error rates that were calculated.
+The final portion of the study compares the results of the k-means clustering algorithm with that of the correct diagnosis that was provided in the initial dataset.  This portion of the study calculates the error rate for both the malignant and benign clusters.  This then goes on to calculate the total error rate accross both clusters.  The following images identifies the total amount of datapoints in each cluster and the error rates that were calculated.  The error rates calculated in this figure are compared the given diagnosis of each of the patients in the dataset.  This image also includes the time (in seconds) that it took to perform the analysis see +@fig:error:
+
+![error](images/Error.PNG){#fig:error}
 
 ### Benchmarks
-
+et
 In Dr. Wolbergs experiments they were utilizing a 30-dimensional vector for each data point in this data set.  The deployment used in this study only utilizes a 10-dimensional vector for each analysis.  In this experiment it takes around 9.65 seconds for the analysis to import the data, read the data, sort the data into initial clusters, iterate over the dataset to ensure cluster assignments are correct and then run a comparison between estimated cluster assignments and the real cluster assignment.  The only values that could be found from Dr. Wolberg's implementation of the Xcyt program were the length of time that the system would take to generate the characteristic map from the FNA imaging.  This was estimated to take around five to ten minutes.  This however is not a comparable time stamp as the system was estimating the characteristics and not running the diagnostic report.
 
 ## Limitations
