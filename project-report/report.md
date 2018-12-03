@@ -71,7 +71,16 @@ The cloud-based database used in this project is the MongoDB database called Mon
 
 ![Mongodb Breast[@fa18-523-80-MongoDB]](images/MongoDB_Server.PNG){#fig:mongodbbreast}
 
-This project has set up a database that has the data to be analyzed already inside.  The following code will allow a user to access this database to run analysis:
+We have set up a database cluster via MongoDB Atlas that has the data to be analyzed already inside.  Prior to connecting to this data however, the user will need to make sure that the python package pymongo and dnspython are both installed.  This can be accomplished via the following terminal commands:
+
+```
+python -m pip install pymongo
+
+python -m pip install dnspython
+
+```
+
+After both of these libraries are installed the user can utilize the following code will allow a user to access this database to run analysis:
 
 ```
 import pymongo
@@ -83,6 +92,7 @@ db = connection.Wisconsin_Breast_Cancer.I523
 
 df = pd.DataFrame(list(db.find()))
 ```
+The above code will connect to the instance of the MongoDB Atlas cluster and to the specific database and collection that has been created to house the data.  It will then utilize python package pandas to import the data into a dataframe so that the data can be handled locally.
 
 While Dr. Wolberg and his team used the novel program of Xyct to perform their machine learning algorithm on a more complex dataset, this report will instead use the popular k-mean clustering algorithm on a more high level dataset within the Spyder Python 3.6 environment.  Once this environment has been donloaded and the datset has been download in .csv format.  The next step would be to import the pandas, numpy, and matplotlib packages will need to be imported into the code.  This will be accomplished using the following code:
 
