@@ -1,13 +1,15 @@
 # Utilizing Machine Learning to Predict Breast Cancer Tumor Diagnosis :hand: fa18-523-80
 
-Evan Beall
-Indiana University
-Bloomington, IN 46408, USA 
-ebbeall@iu.edu 
+| Evan Beall
+| ebbeall@iu.edu
+| Indiana University
+| hid: fa18-523-80
+| github: [:cloud:](https://github.com/cloudmesh-community/fa18-523-80/blob/master/project-report/report.md)
+| github: [:cloud;](https://github.com/cloudmesh-community/fa18-523-80/blob/master/project-code/report.md)
 
 :o: format not followed
 
-| github: [:cloud:](https://github.com/cloudmesh-community/fa18-523-80/blob/master/project-report/report.md)
+| github: [:cloud:](https://github.com/cloudmesh-community/fa18-523-80/blob/master/project-report)
 
 ## Abstract
 
