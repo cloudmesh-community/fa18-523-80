@@ -90,7 +90,7 @@ from matplotlib.backends.backend_pdf import PdfPages
 import pymongo
 ```
 
-The dataset that is in the working directory can now read using the pandas.read_csv() and placed in a dataframe.  By utilizing this simplistic method it allows this program to be easily reproduceable and deployable by researchers that are not well versed in machine learning methodology.  This would also allow for researchers to shape the analysis to their own data and create customizations to the base program.  The 16 missing values in the dataset are also addressed by utilizing the fillna() method assigning the value A7 for all missing values via the following code:
+The dataset that is in the working directory can now read using the pandas.read_csv() and placed in a dataframe.  Alternatively, to grab the data from the MongoDB Atlas database you would run the code included above.  Both of these methods will get you the data that is needed for this analysis.  However, the MongoDB Atlas method is deployable by all others By utilizing this simplistic method it allows this program to be easily reproduceable and deployable by researchers that are not well versed in machine learning methodology.  This would also allow for researchers to shape the analysis to their own data and create customizations to the base program.  The 16 missing values in the dataset are also addressed by utilizing the fillna() method assigning the value A7 for all missing values via the following code:
 
 ```
 df = pd.read_csv('breastcancer.csv', na_values = '?')
