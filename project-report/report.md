@@ -134,7 +134,7 @@ In the first section of the code the data is read from a .csv file using the pan
 
 Each characteristic in this dataset is assigned a value of 1-10.  Using these variable several visualizations were created to allow for the ressearch scientists and physicians to have an idea of how the cells in their research tumors look.  This can be utilized in future studies to account for variances in tumor malignancies accross cancer diagnosis.  An example of these visualizations can be seen below in +@fig:chromatin:
 
-![chromatin](images/Bland_Chromatin.PNG){#fig:chromatin}
+![chromatin](images/Bland_Chromatin.png){#fig:chromatin}
 
 ### K-Means Clustering
 
