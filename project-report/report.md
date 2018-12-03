@@ -37,7 +37,7 @@ The dataset used in this analysis is the Breast Cancer Wisconsin Data set.  This
 
 This dataset includes 569 unique patients with 12 attributes per patient. The attributes provided by this dataset includes de-identified patient identifiers, pathological diagnosis, and tumor characteristics.  The specific characteristics included are clump thickness, uniformity of cell size, uniformity of cell shape, marginal adhesion, single epithelial cell size, bare nuclei, bland chromatin, normal nucleoli, mitosis, and class.  Each of these characteristics are assigned a numerical value from 1 to 10 except for the "Class" characteristic.  The Class characteristics contain the results for malignant vs benign, these are assigned values 2 or 4 respectively.  The below figure displays the output of the pandas.DataFrame.describe() method for the training dataset +@fig:describe:  
 
-![describe](images/Pandas_Describe.png){#fig:describe}
+![describe](images/Pandas_Describes.png){#fig:describe}
 
 The characterisitcs that are included in the data are of the cell nuclei that was present in the digitized images.  The dataset is publicly available for analysis.  The following image contains at what time points that the data points were collected by Dr. Wolberg for this dataset in +@fig:datapoints.
 
