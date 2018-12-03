@@ -67,7 +67,9 @@ The final part of the Xcyt program involves predicition of recurrence of the tum
 
 ### MongoDB Atlas Database
 
-The cloud-based database used in this project is the MongoDB database called MongoDB Atlas.  To deploy this type of database the user will need to create a cluster and then set up a database and collection within that cluster.  This will allow the user to start entering documents into the collection.  The type of cluster that was used in this project is the MongoDB Atlas free tier instance.  This instance uses the M0 Shared Cluster Tier via an AWS server.  This cluster tier is free to deploy and will remain free forever  This type of collection comes with 512 MB of free data storage.  
+The cloud-based database used in this project is the MongoDB database called MongoDB Atlas.  To deploy this type of database the user will need to create a cluster and then set up a database and collection within that cluster.  This will allow the user to start entering documents into the collection.  The type of cluster that was used in this project is the MongoDB Atlas free tier instance.  This instance uses the M0 Shared Cluster Tier via an AWS server.  This cluster tier is free to deploy and will remain free forever  This type of collection comes with 512 MB of free data storage.  The below image shows the type of MongoDB Atlas database that was constructed for this project +@fig:mongodbbreast.
+
+![Mongodb Breast[@fa18-523-80-MongoDB]](images/MongoDB_Server.PNG){#fig:mongodbbreast}
 
 This project has set up a database that has the data to be analyzed already inside.  The following code will allow a user to access this database to run analysis:
 
@@ -126,9 +128,13 @@ Applying the k-means algorithm to this data set happened in several different st
 
 ### Visualizaton
 
-In the first section of the code the data is read from a .csv file using the pandas read_csv() method.  This data was then inserted into a dataframe.  Once here the mean, median, standard deviation, and variance were all calculated per characteristic.  An example of these results can be seen below:
+In the first section of the code the data is read from a .csv file using the pandas read_csv() method.  This data was then inserted into a dataframe.  Once here the mean, median, standard deviation, and variance were all calculated per characteristic.  An example of these results can be seen below +@fig:statistics:
 
-Each characteristic in this dataset is assigned a value of 1-10.  Using these variable several visualizations were created to allow for the ressearch scientists and physicians to have an idea of how the cells in their research tumors look.  This can be utilized in future studies to account for variances in tumor malignancies accross cancer diagnosis.  An example of these visualizations can be seen below.
+![statistics](images/Statistical_Output.PNG){#fig:statistics}
+
+Each characteristic in this dataset is assigned a value of 1-10.  Using these variable several visualizations were created to allow for the ressearch scientists and physicians to have an idea of how the cells in their research tumors look.  This can be utilized in future studies to account for variances in tumor malignancies accross cancer diagnosis.  An example of these visualizations can be seen below in +@fig:chromatin:
+
+![chromatin](images/Bland_Chromatin.PNG){#fig:chromatin}
 
 ### K-Means Clustering
 
