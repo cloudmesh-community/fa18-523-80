@@ -58,7 +58,26 @@ The final part of the Xcyt program involves predicition of recurrence of the tum
   * Pandas
   * Numpy
   * Matplotlib
+  * pymongo
 * Dataset downloaded in .csv file format
+* MongoDB Atlas Account
+
+### MongoDB Atlas Database
+
+The cloud-based database used in this project is the MongoDB database called MongoDB Atlas.  To deploy this type of database the user will need to create a cluster and then set up a database and collection within that cluster.  This will allow the user to start entering documents into the collection.  The type of cluster that was used in this project is the MongoDB Atlas free tier instance.  This instance uses the M0 Shared Cluster Tier via an AWS server.  This cluster tier is free to deploy and will remain free forever  This type of collection comes with 512 MB of free data storage.  
+
+This project has set up a database that has the data to be analyzed already inside.  The following code will allow a user to access this database to run analysis:
+
+```
+import pymongo
+import pandas as pd
+
+connection = pymongo.MongoClient('mongodb+srv://I523Admin:<I523Admin>@i523breastcancer-fdclg.mongodb.net/test?retryWrites=true')
+
+db = connection.Wisconsin_Breast_Cancer.I523
+
+df = pd.DataFrame(list(db.find()))
+```
 
 While Dr. Wolberg and his team used the novel program of Xyct to perform their machine learning algorithm on a more complex dataset, this report will instead use the popular k-mean clustering algorithm on a more high level dataset within the Spyder Python 3.6 environment.  Once this environment has been donloaded and the datset has been download in .csv format.  The next step would be to import the pandas, numpy, and matplotlib packages will need to be imported into the code.  This will be accomplished using the following code:
 
@@ -68,6 +87,7 @@ import pandas as pd
 import numpy as np
 from pandas import DataFrame, read_csv
 from matplotlib.backends.backend_pdf import PdfPages
+import pymongo
 ```
 
 The dataset that is in the working directory can now read using the pandas.read_csv() and placed in a dataframe.  By utilizing this simplistic method it allows this program to be easily reproduceable and deployable by researchers that are not well versed in machine learning methodology.  This would also allow for researchers to shape the analysis to their own data and create customizations to the base program.  The 16 missing values in the dataset are also addressed by utilizing the fillna() method assigning the value A7 for all missing values via the following code:
