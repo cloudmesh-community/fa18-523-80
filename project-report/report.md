@@ -118,12 +118,6 @@ In the second part of the analysis, a basic k means algorithm will be created an
 
 The final portion of this will compare how successful the k means algorithm we have implemented predicted the diagnosis condition.  In this step we take the cluster asssignment and compare it to the final column included in this dataset that contains the actual diagnosis of the patient.  By doing this we are able to calculate the error rate for each cluster and the overall error rate for both clusters.  This will give us a real world definition of how accurately the k mean algorithm is functioning.  
 
-## Implementation
-
-While Dr. Wolberg and his team used the novel program of Xyct to perform their machine learning algorithm, this report will instead use the popular k mean clustering algorithm that is used in many machine learning activities.  To perform our analysis and visualization we will utilize a Python 3 environment. Within the python environment we will be utilizing numpy, pandas, and matplotlib libraries to load our dataset, perform analysis, and create visual representations of the data. 
-
-This dataset provides us with a large amount of data on different characteristics of each tumor. This dataset also provides us with a diagnosis of the individual with breast cancer. By using both the characteristics of the analyzed tumor along with the patients diagnosis we might be able to look for tumor characteristics that are be indicative of a cancer diagnosis. This would be able to inform future clinical trial research in how to identify patients with metastatic versus benign tumor diagnosis. This could also allow for specialized treatment of specific type of breast cancer lesions. Depending on tumor density, radius, etc. might indicate that cancer was more likely to metastisize more quickly.
-
 ## Results
 
 Applying the k-means algorithm to this data set happened in several different steps.  The following analysis will be split into those different steps to breakdown how the final results were achieved.
