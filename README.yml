@@ -16,7 +16,7 @@ paper:
     url: https://github.com/cloudmesh-community/fa18-523-80/blob/master/paper/paper.md
     group: N/A
 project:
-  - keyword: TBD
-    title: "Utilizing Machine Learning and Visualization Tools to Analyze Breast Tumor Measurements"
+  - keyword: MongoDB Atlas
+    title: "Utilizing Machine Learning to Predict Breast Cancer Tumor Diagnosis"
     url: https://github.com/cloudmesh-community/fa18-523-80/blob/master/project-report/report.md
     group: N/A
