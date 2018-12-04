@@ -19,11 +19,11 @@ We have explored a method that is easily understandable and potentially deployab
 
 ## Keywords
 
-Breast Cancer, Python, big data, random forest
+Breast Cancer, Python, Big Data, Machine Learning, Xcyt, MongoDB Atlas
 
 ## Introduction
 
-Cancer is one of the most devastating conditions financially, emotionally, and physically to the person who is diagnosed and those around them.  This disease can be classified as a human problem that no one can escape from.  With the odds of developing this disease over one's lifetime being over one in three, it is likely that you will be impacted by this disease at some point in life.  In the United States alone "the Agency for Healthcare research and Quality estimates that the direct medical costs (total of all health care costs) for cancer in the US in 2015 were $80.2 billion."  This figure includes all heath care costs that are associated with cancer.  There are several aspects that go into the total cost of health care for cancer patients, but one of the main ones is the cost of cancer treatment.
+Cancer is one of the most devastating conditions financially, emotionally, and physically to the person who is diagnosed and those around them.  This disease can be classified as a human problem that no one can escape from.  With the odds of developing this disease over one's lifetime being over one in three, it is likely that you will be impacted by this disease at some point in life.  In the United States alone "the Agency for Healthcare research and Quality estimates that the direct medical costs (total of all health care costs) for cancer in the US in 2015 were $80.2 billion [fa18-523-80-acsecon]."  This figure includes all heath care costs that are associated with cancer.  There are several aspects that go into the total cost of health care for cancer patients, but one of the main ones is the cost of cancer treatment.
 
 Breast cancer has high visibility in the public eye and has some of the highest funding of any other types of cancer out there.  In the United States, there is branch known as the National Cancer Institute that helps to organize governmentally funded research into Cancer.  The current budget that has been allocated to the NCI for the 2019 fiscal year is $5.74 billion [@fa18-523-80-nci].  This budget represents an increase of 79 million dollars from 2018[@fa18-523-80-nci]. Several large pharmaceutical companies and researchers get large grants to research new compounds and molecules to fight of these diseases. The oncology pharmaceutical industry is over a trillion- dollar industry and each year there are thousands of clinical trials that are ongoing.
 
