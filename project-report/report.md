@@ -1,4 +1,4 @@
-# Utilizing Machine Learning to Predict Breast Cancer Tumor Diagnosis :hand: fa18-523-80
+# Utilizing Machine Learning to Predict Breast Cancer Tumor Diagnosis :smiley: fa18-523-80
 
 | Evan Beall
 | ebbeall@iu.edu
