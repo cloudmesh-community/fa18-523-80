@@ -1,7 +1,4 @@
-# Utilizing Python Matplotlib Package for Data Visualization of In Cancer Clinical Trials :wave: :exclamation: fa18-523-80
-
-* :o: the `+@` is not done corre tly you forgot the `@`, see sample. (Updated to add @ symbol in the two places that it was missing)
-
+# Utilizing Python Matplotlib Package for Data Visualization of In Cancer Clinical Trials
 
 | Evan Beall
 | ebbeall@iu.edu
